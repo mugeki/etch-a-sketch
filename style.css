@@ -1,0 +1,35 @@
+body {
+	font-family: Itim;
+	color: rgb(79, 79, 79);
+	background-color: rgb(248, 238, 226);
+}
+
+#btn-container {
+	display: flex;
+	justify-content: center;
+	margin: 1rem auto;
+}
+
+.btn {
+	font-family: Itim;
+	border: 1px solid rgb(79, 79, 79);
+	border-radius: 10%;
+	padding: 10px;
+	margin: 20px;
+}
+
+#grid-container {
+	display: grid;
+	max-width: 500px;
+	min-height: 500px;
+	margin: 2rem auto;
+}
+
+.grid {
+	border: 0.5px solid rgb(79, 79, 79);
+}
+
+#title {
+	margin: 3rem auto 1rem;
+	text-align: center;
+}
